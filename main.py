@@ -1,0 +1,3 @@
+import mouseEmulation
+
+mouseEmulation.runMouseEmulationApplication()

@@ -1,0 +1,35 @@
+Definition-Project-Work-Attempt-2.md 2025-09-22
+1 / 1
+Definition Project Work: Keyboard Hook and Mouse Emulation
+Design and implement a python program for mouse emulation depending on keyboard input.
+
+Minimum requirements (10 points)
+Dependencies must be defined using a requirements.txt file including the python version.
+
+Console configuration menu (50 points)
+Show a text-based configuration menu to the user with the following options:
+Press [c] to configure mapping
+Press [p] to print mapping
+Press [s] to start mapping
+Press [ESC] to quit application
+
+After pressing the "letter"+Enter, the respective action is performed. 
+When the action is finished the program shows the main menu again.
+Configuration of keyboard to mouse mapping
+
+Use console input to ask the user for the following key to mouse mappings:
+Key for left mouse movement
+Key for right mouse movement
+Key for up mouse movement
+Key for down mouse movement
+Key for left mouse click
+Key for right mouse click
+Print current configuration
+
+When the user presses "p"+Enter, print out the current configuration.
+Start mapping
+
+When teh user presses "s"+Enter, start the keyboard to mouse mapping.
+Mapping of key press to mouse action (40 points)
+
+Wait for key presses of the configured keys and create a mouse action according to it.
